@@ -368,6 +368,12 @@ margin-bottom: 5px;
 #fondo_proyecto{
     background-image: url(./Images/one\ page.png);
  }
+ #fondo_proyecto2{
+     background-image: url(./Images/quiz\ JS.png);
+ }
+ #fondo_proyecto3{
+     background-image: url(./Images/formulario\ JS.png);
+ }
 .cajas1 h2{
     width: 360px;
     font-size: 35px;
