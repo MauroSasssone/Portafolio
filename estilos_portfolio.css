@@ -124,7 +124,7 @@
 }
 .overlay {
     background:rgba(138, 138, 138, 0.075) ;
-    height: 989px;
+    height: 26%;
     backdrop-filter: blur(9px);
 }
 .fondo__texto{
