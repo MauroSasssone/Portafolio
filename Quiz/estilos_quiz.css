@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    background: rgb(225, 226, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+img{
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+#titulo{
+color: rgb(163, 255, 72);
+font-size: 40px;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#container{
+width: 50%;
+background-color: darkcyan;
+margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+
+
+
+}
+.pregunta{
+    margin-top: 10px;
+    
+}
+h4{
+    background-color: black;
+font-size: 24px;
+color: rgb(53, 154, 19);
+}
+h3{
+    color: rgb(222, 231, 54);
+    font-size: 28px;
+    padding-top: 30px;
+     padding-bottom: 30px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+span{
+color: rgb(55, 255, 0);
+}
+.answer{
+    font-size: 25px;
+    color: rgb(255, 234, 234);
+    font-weight: bold;
+
+    
+    
+}
+
+#redondo{
+    color: black;
+}
+#envio{
+    margin-bottom: 50px;
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+   background-color: rgb(255, 210, 154);
+   box-shadow: 0px 4px 0px black;
+   border-radius: 10px;
+    
+}
+#envio:hover{
+    background-color: rgb(255, 166, 2);
+}
+@media all and (max-width: 599px){
+    
+    
+    
+    header p{
+    
+    font-size: 25px;
+    
+    }
+    #container{
+    width: 100%;
+    
+    
+    }
+    
+    
+    
+    h3{
+        
+        font-size: 25px;
+        
+    }
+    span{
+        font-size: 25px;
+        
+        
+        
+    }
+    #redondo{
+        color: black;
+    }
+}

@@ -43,7 +43,7 @@
     font-weight: bolder;
       color: white;
      transform: translate(-50%,-50%);
-    text-shadow: 0 0 1px rgba(0,120,255,1),
+     text-shadow: 0 0 1px rgba(0,120,255,1),
      0 0 2px rgba(0,120,255,1),
      0 0 3px rgba(0,120,255,1),
      0 0 4px rgba(0,120,255,1),
@@ -83,13 +83,17 @@
     transition: all 0.7s;
  }
 #centro p{
-    font-size: 50px;
+    font-size: 40px;
 }
 .texto_medio{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    text-shadow: 0 0 5px rgb(47, 99, 255),
+    0 0 6px rgb(47, 99, 255) ,
+     0 0 7px rgb(47, 99, 255),
+     0 0 8px rgb(47, 99, 255);
   }
 #secundario{
    background:url(./Images/code-5113374.jpg);
@@ -98,19 +102,20 @@
     background-attachment: fixed;
      background-repeat: no-repeat;
     height: 900px;
-    text-shadow: 0 0 5px rgb(1, 201, 1),
-      0 0 6px rgb(1, 201, 1),
-      0 0 7px rgb(1, 201, 1),
-      0 0 8px rgb(1, 201, 1);
-    display:flex;
+   display:flex;
     align-items: center;
     justify-content: center;
     font-size: 36px;
 }
-h1{
+
+#sobre__mi{
+    text-shadow: 1px 0 5px rgb(177, 177, 177),
+      2px -35px 8px rgba(208, 208, 208, 0.401) ,
+      3px 0 10px rgb(67, 18, 228),
+      4px 0 95px rgb(67, 18, 228);
     margin-bottom: 100px;
-    color: rgb(255, 255, 255);
-    font-size: 240px;
+    color: rgb(224, 224, 224);
+    font-size: 130px;
 }
 #descripton{
     width: 350px;
@@ -179,16 +184,16 @@ h1{
     transition: all 0.7s;
 } 
 .cajas img{
-    width: 140px;
+    width: 110px;
     border-radius: 90px;
 } 
 .cajas3 img{
-    width: 140px;
+    width: 110px;
     border-radius: 90px;
 } 
 #conocimientos,#titulo_trabajo, #titulo_final{
     color:rgba(255, 255, 255, 0.83);
-    font-size: 85px;
+    font-size: 65px;
     
     text-shadow: 1px 0 5px rgb(177, 177, 177),
       2px -35px 8px rgb(98, 98, 98) ,
@@ -255,7 +260,7 @@ margin-bottom: 5px;
 }
 .texto_medio{
     color: white;
-    font-size: 30px;
+    
 }
 #orange{
     text-shadow: 0 0 2px rgb(250, 152, 6),
@@ -349,7 +354,7 @@ margin-bottom: 5px;
 .cajas1{
     width: 400px;
     height: 180px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 200px;
  padding-right: 50px;
  padding-left: 50px;
@@ -360,20 +365,20 @@ margin-bottom: 5px;
     background-position: center;
     font-size: 100px;
 }
-#agrandar{
-   background-image: url(./Images/one\ page.png);
-}
+#fondo_proyecto{
+    background-image: url(./Images/one\ page.png);
+ }
 .cajas1 h2{
-    font-size: 85px;
-    text-decoration: none;
-  line-height: 150px;
+    width: 360px;
+    font-size: 35px;
+    text-decoration: underline;
+  line-height: 50px;
   position: absolute;
-color: #0e487baf;
+  
+  margin-left: 30px;
+color: #a7abff;
 }
-.cajas1:hover{
-    filter:blur(3px);
-   transition-duration: 1s;
-}
+
 .caja_grande{
      margin-left: auto;
    margin-right: auto;
@@ -382,13 +387,31 @@ color: #0e487baf;
    opacity: 0;
     transition: all 0.7s;
 }
+.titulo_proyecto {
+    margin-top: 60px;
+    
+   
+    text-shadow: 1px 0 5px rgb(0, 55, 253),
+      
+      3px 0 10px rgb(0, 55, 253),
+      4px 0 95px rgb(0, 55, 253);
+
+   
+}
+
+.titulo_proyecto:hover{
+    
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    
+}
 /*----------------------------------------------------Fin SECCION TRABAJOS-----------------------------------------------------*/
 #caja_grande2{
     margin-left: auto;
   margin-right: auto;
   width: 100%;
   margin-top: 150px;
-  padding-bottom: 250px;
+  padding-bottom: 10px;
   opacity: 0;
   transition: all 0.9s;
 }
@@ -443,7 +466,7 @@ color: #0e487baf;
  }
 footer{
     background-image: linear-gradient(to right, #292828 0%, black 100%);
-    padding-bottom: 200px;
+    
 }
 .sin_estilo{
     text-decoration: none;
@@ -452,7 +475,7 @@ footer{
 h2{
     margin-top: 20px;
     color: white;
-    font-size: 52px;
+    font-size: 32px;
 }
 p{
     color: rgb(154, 153, 153);
@@ -522,12 +545,6 @@ p{
     }
     #secundario{
         background:url(./Images/code-5113374_1920.jpg);
-        
-        
-        text-shadow: 0 0 5px rgba(46, 182, 1, 0.687),
-          0 0 6px rgba(46, 182, 1, 0.687) ,
-          0 0 7px rgba(46, 182, 1, 0.687),
-          0 0 8px rgba(46, 182, 1, 0.687);
         font-size: 26px;
     }
     
@@ -579,21 +596,22 @@ p{
        
 }
 .texto_medio{
-    width: 99%;
+    width: 100%;
     text-align: center;
     font-size: 24px;
-    line-height: 50px;
+    line-height: 40px;
 }
 #centro p{
     font-size: 25px;
 }
      .cajas1{
-        width: 215px;
-        height: 150px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        padding-right: 30px;
+        width: 190px;
+        
+     margin-left: auto;
+     margin-right: auto;
+        
+        margin-top: 100px;
+        
         display: block;
         background-image: url(./Images/pexels-burst-374016.jpg);
         background-repeat: no-repeat;
@@ -608,7 +626,10 @@ p{
         background-position: center;
      }
      .cajas1 h2{
-        font-size: 50px;
+        font-size: 28px;
+      text-align: left;
+      
+    color: #ccafff;
     }
     
     
@@ -616,6 +637,7 @@ p{
         width: 100%;
           opacity: 0;
         transition: all 0.7s;
+       
     }
     #caja_grande2{
         margin-left: auto;
@@ -657,24 +679,34 @@ p{
     p{
         color: rgb(154, 153, 153);
     }
+    .fa-twitter, .fa-linkedin, .fa-facebook-f, .fa-instagram{
+        line-height: 150px;
+         font-size: 50px;
+    }
+     #mayuscula{
+        font-size: 41px;
+    }
+    #titulo_final{
+        font-size: 60px;
+        margin-bottom: 0px;
+    }
+    #sobre__mi{
+        margin-bottom: 20px;
+        color: rgb(245, 245, 245);
+        font-size: 65px;
+    }
+    .titulo_proyecto{
+    
+        margin-top: 1px;
+       
+    }
+    
+    .titulo_proyecto:hover{
+        margin-top: 1px;
+     
+        
+    }
+    
 }
-.fa-twitter, .fa-linkedin, .fa-facebook-f, .fa-instagram{
-    line-height: 150px;
-     font-size: 50px;
-}
- #mayuscula{
-    font-size: 41px;
-}
-#titulo_final{
-    font-size: 60px;
-    margin-bottom: 0px;
-}
-h1{
-    text-shadow: 0 0 5px rgb(47, 99, 255),
-     0 0 6px rgb(47, 99, 255) ,
-      0 0 7px rgb(47, 99, 255),
-      0 0 8px rgb(47, 99, 255);
-    margin-bottom: 80px;
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-}
+
+
