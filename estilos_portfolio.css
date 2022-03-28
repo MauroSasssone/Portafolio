@@ -365,6 +365,16 @@ margin-bottom: 5px;
     background-position: center;
     font-size: 100px;
 }
+#encima{
+    position: absolute;
+    background: rgba(255, 0, 0, 0.353);
+    width: 500px;
+    height: 180px;
+    margin-left: -50px;
+    margin-top: -115px;
+ padding-right: -10px;
+ padding-left: -10px;
+}
 #fondo_proyecto{
     background-image: url(./Images/one\ page.png);
  }
@@ -506,7 +516,12 @@ p{
 /*---------------------------------------------------------------DISPOSITIVO Celular-------------------------------------------------------------------------------------------------------------------*/
 
 @media all and (max-width: 599px){
-     
+     #encima{
+       
+        background: rgba(0, 0, 0, 0.136);
+        width: 290px;
+        
+    }
     #menu{
         display: none;
  }
