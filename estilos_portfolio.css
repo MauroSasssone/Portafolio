@@ -124,7 +124,7 @@
 }
 .overlay {
     background:rgba(138, 138, 138, 0.075) ;
-    height: 989px;
+    
     backdrop-filter: blur(9px);
 }
 .fondo__texto{
@@ -269,12 +269,7 @@ margin-bottom: 5px;
 0 0 5px rgb(250, 152, 6);
 
 }
-#orange:hover{
-    text-shadow: 0 0 10px rgb(250, 152, 6),
-      0 0 30px rgb(250, 152, 6) ,
-      0 0 40px rgb(250, 152, 6),
-      0 0 45px rgb(250, 152, 6);
-}
+
 #blue{
     text-shadow: 0 0 2px rgb(6, 87, 250),
     0 0 3px rgb(6, 87, 250) ,
@@ -283,17 +278,7 @@ margin-bottom: 5px;
     0 0 6px rgb(6, 87, 250),
     0 0 7px rgb(6, 87, 250); 
 }
-#blue:hover{
-    text-shadow: 0 0 10px rgb(6, 87, 250),
-      0 0 30px rgb(6, 87, 250) ,
-      0 0 40px rgb(6, 87, 250),
-      0 0 45px rgb(6, 87, 250),
-      0 0 65px rgb(6, 87, 250),
-      0 0 75px rgb(6, 87, 250),
-      0 0 85px rgb(6, 87, 250),
-      0 0 95px rgb(6, 87, 250),
-      0 0 125px rgb(6, 87, 250);
-}
+
 #yellow{
     text-shadow: 0 0 2px rgb(243, 255, 9),
     0 0 3px rgb(243, 255, 9) ,
@@ -302,12 +287,7 @@ margin-bottom: 5px;
     0 0 6px rgb(243, 255, 9),
     0 0 7px rgb(243, 255, 9);
 }
-#yellow:hover{
-    text-shadow: 0 0 10px rgb(238, 250, 6),
-      0 0 30px rgb(238, 250, 6) ,
-      0 0 40px rgb(238, 250, 6),
-      0 0 45px rgb(238, 250, 6);
-}
+
 #green{
    text-shadow: 0 0 2px rgb(6, 142, 21),
     0 0 3px rgb(6, 142, 21) ,
@@ -316,12 +296,7 @@ margin-bottom: 5px;
     0 0 6px rgb(6, 142, 21),
     0 0 17px rgb(6, 142, 21);
  }
-#green:hover{
-    text-shadow: 0 0 10px rgb(6, 172, 26),
-      0 0 30px rgb(6, 172, 26) ,
-      0 0 40px rgb(6, 172, 26),
-      0 0 45px rgb(6, 172, 26);
-}
+
 #purple{
     text-shadow: 0 0 2px rgb(146, 73, 255),
     0 0 3px rgb(146, 73, 255),
@@ -330,12 +305,7 @@ margin-bottom: 5px;
     0 0 6px rgb(146, 73, 255),
     0 0 17px rgb(146, 73, 255);
 }
-#purple:hover{
-    text-shadow: 0 0 10px rgb(146, 73, 255),
-    0 0 30px rgb(146, 73, 255),
-    0 0 40px rgb(146, 73, 255),
-    0 0 45px rgb(146, 73, 255);
-}
+
 #red{
     text-shadow: 0 0 2px rgba(255, 4, 4, 0.755),
     0 0 3px rgba(255, 4, 4, 0.755),
@@ -344,12 +314,7 @@ margin-bottom: 5px;
     0 0 6px rgba(255, 4, 4, 0.755),
     0 0 17px rgba(255, 4, 4, 0.755);
 }
-#red:hover{
-        text-shadow: 0 0 10px rgba(255, 4, 4, 0.755),
-        0 0 30px rgba(255, 4, 4, 0.755),
-        0 0 40px rgba(255, 4, 4, 0.755),
-        0 0 45px rgba(255, 4, 4, 0.755);
-}
+
 /*----------------------------------------------------SECCION TRABAJOS-----------------------------------------------------*/
 .cajas1{
     width: 400px;
@@ -359,13 +324,28 @@ margin-bottom: 5px;
  padding-right: 50px;
  padding-left: 50px;
    display: inline-block;
-    background-image: url(./Images/pexels-burst-374016.jpg);
+  
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-size: 100px;
+    position: relative;
+}
+.encima{
+    position: absolute;
+    background: rgba(44, 44, 44, 0.279);
+    width: 500px;
+    height: 180px;
+    margin-left: -50px;
+    margin-top: -115px;
+ padding-right: -10px;
+ padding-left: -10px;
+}
+.encima:hover{
+    background: rgba(81, 125, 202, 0);
 }
 #fondo_proyecto{
+   
     background-image: url(./Images/one\ page.png);
  }
  #fondo_proyecto2{
@@ -374,6 +354,15 @@ margin-bottom: 5px;
  #fondo_proyecto3{
      background-image: url(./Images/formulario\ JS.png);
  }
+ #fondo_proyecto4{
+    background-image: url(./Images/pexels-burst-374016.jpg);
+}
+#fondo_proyecto5{
+    background-image: url(./Images/pexels-burst-374016.jpg);
+}
+#fondo_proyecto6{
+    background-image: url(./Images/pexels-burst-374016.jpg);
+}
 .cajas1 h2{
     width: 360px;
     font-size: 35px;
@@ -506,7 +495,15 @@ p{
 /*---------------------------------------------------------------DISPOSITIVO Celular-------------------------------------------------------------------------------------------------------------------*/
 
 @media all and (max-width: 599px){
-     
+    .encima{
+       
+        background: rgba(88, 88, 88, 0.136);
+        width: 290px;
+        
+    }
+    .encima:hover{
+        background: rgba(81, 125, 202, 0);
+    }
     #menu{
         display: none;
  }
