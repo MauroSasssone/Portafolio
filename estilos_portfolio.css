@@ -337,9 +337,12 @@ margin-bottom: 5px;
     font-size: 100px;
     position: relative;
 }
+
 .encima{
     position: absolute;
-    background: rgba(44, 44, 44, 0.279);
+    backdrop-filter: blur(2px);
+    
+    
     width: 500px;
     height: 180px;
     margin-left: -50px;
@@ -348,20 +351,9 @@ margin-bottom: 5px;
  padding-left: -10px;
 }
 .encima:hover{
-    background: rgba(81, 125, 202, 0);
-}
-#encima{
-    position: absolute;
-    background: rgba(49, 49, 49, 0.353);
-    width: 500px;
-    height: 180px;
-    margin-left: -50px;
-    margin-top: -115px;
- padding-right: -10px;
- padding-left: -10px;
-}
-#encima:hover{
-    background: rgba(255, 255, 255, 0.374);
+    transition: 0.9s;
+    backdrop-filter: blur(0px);
+   
 }
 #fondo_proyecto{
    
@@ -515,13 +507,17 @@ p{
 
 @media all and (max-width: 599px){
     .encima{
-       
+        
         background: rgba(88, 88, 88, 0.136);
         width: 290px;
         
     }
     .encima:hover{
-        background: rgba(81, 125, 202, 0);
+    
+            transition: 0.9s;
+            
+           
+        }
     }
     #menu{
         display: none;
@@ -721,7 +717,8 @@ p{
         font-size: 65px;
     }
     .titulo_proyecto{
-    
+    position: absolute;
+    z-index: 3;
         margin-top: 1px;
        
     }
@@ -732,6 +729,6 @@ p{
         
     }
     
-}
+
 
 
