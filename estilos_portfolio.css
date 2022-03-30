@@ -338,7 +338,7 @@ margin-bottom: 5px;
     position: relative;
 }
 
-.encima{
+.overlay2{
     
     backdrop-filter: blur(2px);
     background: rgba(49, 49, 49, 0.353);
@@ -349,7 +349,7 @@ margin-bottom: 5px;
  padding-right: -10px;
  padding-left: -10px;
 }
-.encima:hover{
+.overlay2:hover{
     background: rgba(111, 111, 111, 0);
     backdrop-filter: blur(0px);
     transition: 1s;
@@ -506,13 +506,13 @@ p{
 /*---------------------------------------------------------------DISPOSITIVO Celular-------------------------------------------------------------------------------------------------------------------*/
 
 @media all and (max-width: 599px){
-    .encima{
+    .overlay2{
        
         background: rgba(88, 88, 88, 0.136);
         width: 290px;
         
     }
-    .encima:hover{
+    .overlay2:hover{
         background: rgba(111, 111, 111, 0);
     backdrop-filter: blur(0px);
     transition: 1s;
@@ -725,7 +725,11 @@ p{
      
         
     }
-    
+    #contacto_wsp a{
+        text-decoration: none;
+        color: rgb(240, 240, 240);
+        
+    }
 }
 
 
