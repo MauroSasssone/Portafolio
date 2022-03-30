@@ -339,10 +339,9 @@ margin-bottom: 5px;
 }
 
 .encima{
-    position: absolute;
+    
     backdrop-filter: blur(2px);
-    
-    
+    background: rgba(49, 49, 49, 0.353);
     width: 500px;
     height: 180px;
     margin-left: -50px;
@@ -351,9 +350,9 @@ margin-bottom: 5px;
  padding-left: -10px;
 }
 .encima:hover{
-    transition: 0.9s;
+    background: rgba(111, 111, 111, 0);
     backdrop-filter: blur(0px);
-   
+    transition: 1s;
 }
 #fondo_proyecto{
    
@@ -395,7 +394,8 @@ color: #a7abff;
 }
 .titulo_proyecto {
     margin-top: 60px;
-    
+    position: absolute;
+    z-index: 3;
    
     text-shadow: 1px 0 5px rgb(0, 55, 253),
       
@@ -507,17 +507,15 @@ p{
 
 @media all and (max-width: 599px){
     .encima{
-        
+       
         background: rgba(88, 88, 88, 0.136);
         width: 290px;
         
     }
     .encima:hover{
-    
-            transition: 0.9s;
-            
-           
-        }
+        background: rgba(111, 111, 111, 0);
+    backdrop-filter: blur(0px);
+    transition: 1s;
     }
     #menu{
         display: none;
@@ -717,8 +715,7 @@ p{
         font-size: 65px;
     }
     .titulo_proyecto{
-    position: absolute;
-    z-index: 3;
+    
         margin-top: 1px;
        
     }
@@ -729,6 +726,6 @@ p{
         
     }
     
-
+}
 
 
