@@ -269,6 +269,12 @@ margin-bottom: 5px;
 0 0 5px rgb(250, 152, 6);
 
 }
+#oj{
+    text-shadow: 0 0 2px rgb(250, 152, 6),
+0 0 3px rgb(250, 152, 6) ,
+0 0 4px rgb(250, 152, 6),
+0 0 5px rgb(250, 152, 6);
+}
 
 #blue{
     text-shadow: 0 0 2px rgb(6, 87, 250),
@@ -289,12 +295,12 @@ margin-bottom: 5px;
 }
 
 #green{
-   text-shadow: 0 0 2px rgb(6, 142, 21),
-    0 0 3px rgb(6, 142, 21) ,
-    0 0 4px rgb(6, 142, 21),
-    0 0 5px rgb(6, 142, 21),
-    0 0 6px rgb(6, 142, 21),
-    0 0 17px rgb(6, 142, 21);
+   text-shadow: 0 0 2px rgb(5, 106, 17),
+    0 0 3px rgb(5, 106, 17),
+    0 0 4px rgb(5, 106, 17),
+    0 0 5px rgb(5, 106, 17),
+    0 0 6px rgb(5, 106, 17),
+    0 0 17px rgb(5, 106, 17);
  }
 
 #purple{
@@ -343,6 +349,19 @@ margin-bottom: 5px;
 }
 .encima:hover{
     background: rgba(81, 125, 202, 0);
+}
+#encima{
+    position: absolute;
+    background: rgba(49, 49, 49, 0.353);
+    width: 500px;
+    height: 180px;
+    margin-left: -50px;
+    margin-top: -115px;
+ padding-right: -10px;
+ padding-left: -10px;
+}
+#encima:hover{
+    background: rgba(255, 255, 255, 0.374);
 }
 #fondo_proyecto{
    
@@ -591,6 +610,9 @@ p{
     .cajas img, .cajas3 img{
         width: 130px;
     } 
+    .iconify{
+        width: 200px;
+    }
     #descripton{
         width: 250px;
         height: 250px;
